@@ -1,5 +1,51 @@
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0
+    padding: 10px;
+}
+
+body {
+    background-color: #e9d3bb;
+}
+
+h1, h3 {
+    font-family: 'Poppins', sans-serif;
+    color: navy;
+}
+
+a {
+    color: #c32c2c;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links {
+    width: 30%;
+    border: 5px solid navy;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #d7e9eb;
+}
+
+h1, p, .image {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: #c32c2c;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+img {
+    border: 5px solid navy;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 64px;
+    margin: 2px;
 }
